@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Pasien Gigi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #004d40;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            margin: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        nav a:hover, nav a.active {
+            background-color: #00796b;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .btn-back {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 18px;
+            background-color: #004d40;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Poli Gigi</h1>
+        <p>Pelayanan Perawatan dan Kesehatan Gigi</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="pasien-umum.html">Pasien Umum</a>
+        <a href="pasien-gigi.html" class="active">Pasien Gigi</a>
+        <a href="administrasi.html">Pelayanan Administrasi</a>
+    </nav>
+
+    <div class="container">
+        <h2>Halaman Layanan Pasien Gigi</h2>
+        <p>Selamat datang di bagian pelayanan kesehatan gigi dan mulut. Layanan yang tersedia meliputi:</p>
+        <ul>
+            <li>Pemeriksaan rutin dan konsultasi dokter gigi</li>
+            <li>Pembersihan karang gigi (scaling)</li>
+            <li>Penambalan dan pencabutan gigi</li>
+        </ul>
+        <a href="index.html" class="btn-back">&larr; Kembali ke Beranda</a>
+    </div>
+
+</body>
+</html>
